@@ -13,9 +13,13 @@ import { environment } from '../environments/environment';
 import { QuillModule } from 'ngx-quill';
 
 import {FormsModule} from '@angular/forms';
+import { WriteRichComponent } from './Components/write-rich/write-rich.component';
+import { ReadRichComponent } from './Components/read-rich/read-rich.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WriteRichComponent,
+    ReadRichComponent
   ],
   imports: [
     BrowserModule,

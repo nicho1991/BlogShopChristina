@@ -1,0 +1,9 @@
+<!-- create -->
+<quill-editor 
+[modules]="editorModules" 
+[(ngModel)]="content"
+(onContentChanged)="output($event)"
+></quill-editor>
+
+
+<button (click)="update()">Update</button>
